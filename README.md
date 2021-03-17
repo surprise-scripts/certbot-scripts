@@ -29,5 +29,5 @@ This will use /var/www/html to handle certificate generation. It's worth mention
 If you want to do multiple second level domains, with different webroots, this is from the certbot docs:
 
 ```bash
-certbot certonly --webroot -w /var/www/html -d www.example.com -d example.com -w /var/www/example2 -d www.example2.com -d example2.com
+certbot certonly --email it@australiazoo.com.au --webroot -w /var/www/html -d www.example.com -d example.com -w /var/www/example2 -d www.example2.com -d example2.com
 ```
